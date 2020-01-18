@@ -83,3 +83,14 @@ if the returned value from dist_calc is 0 we consider the distance given for tha
 
 4.For mpg "V" in the formula given assumed the speed limit for that hop
 5.total gas gallons = (hop distance/mpg for the hop)
+
+### Code Run :
+```
+./route.py [start-city] [end-city] [cost-function]
+
+```
+
+For Eg :
+```
+./route.py Bloomington,_Indiana Indianapolis,_Indiana distance
+```
